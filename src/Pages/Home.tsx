@@ -3,9 +3,9 @@ import MainLayout from '../core/Layouts/MainLayout'
 import useScript from '../utils/UseScript'
 
 function Home() {
-    useScript('revolution/js/jquery.themepunch.tools.min.js', true);
-    useScript('revolution/js/jquery.themepunch.revolution.min.js', true);
-    useScript('revolution/js/slider.js', true);
+    useScript('js/revolution/js/jquery.themepunch.tools.min.js');
+    useScript('js/revolution/js/jquery.themepunch.revolution.min.js');
+    useScript('js/revolution/js/slider.js');
 
     // optional scripts
 

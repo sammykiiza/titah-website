@@ -1,19 +1,18 @@
 import { useEffect } from 'react';
 
-const useScript = (url: string, defer: (boolean) = false) => {
+const useScript = (url: string) => {
   useEffect(() => {
     const script = document.createElement('script');
 
     script.type = 'text/javascript';
     script.src = url;
-    script.defer = defer;
 
     document.body.appendChild(script);
 
     return () => {
       document.body.removeChild(script);
     }
-  }, [defer, url]);
+  }, [url]);
 };
 
 export default useScript;
