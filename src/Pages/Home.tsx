@@ -444,7 +444,7 @@ function Home() {
                                     {/* <!-- ttm-box-view-overlay --> */}
                                     <div className="ttm-box-view-overlay">
                                         <div className="ttm-media-link">
-                                            <a className="ttm_prettyphoto ttm_image" data-gal="prettyPhoto[gallery1]" title="Autue Art Gallery Opening" href="../assets/images/gallery/gallery-1.jpg" data-rel="prettyPhoto">
+                                            <a className="ttm_prettyphoto ttm_image" data-gal="prettyPhoto[gallery1]" title="Autue Art Gallery Opening" href="assets/images/gallery/gallery-1.jpg" data-rel="prettyPhoto">
                                                 <i className="ti ti-search"></i>
                                             </a>
                                         </div>
